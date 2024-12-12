@@ -1,6 +1,6 @@
 # Danilo Righetto's website 2024
 
-Criando um novo site, utilizando [nextjs](https://nextjs.org/) e [tailwind](https://tailwindui.com/documentation), contendo os principais projetos e competências para apresentar aos novos clientes e futuros recrutadores.
+Criando um novo site, utilizando [nextjs](https://nextjs.org/), [tailwind](https://tailwindui.com/documentation) e [Hygraph CMS](https://hygraph.com/), contendo os principais projetos e competências para apresentar aos novos clientes e futuros recrutadores.
 
 ## Iniciando o projeto com Docker
 
@@ -37,6 +37,7 @@ Após a execução dos dois comando acesse [http://localhost:3000](http://localh
 - **[Tailwind](https://tailwindui.com/documentation)**
 - **[PNPM](https://pnpm.io/pt/)**
 - **[Lucide](https://lucide.dev/)** - (Biblioteca de Icones)
+- **[Hygraph CMS](https://hygraph.com/)** - CMS contendo as informações que a aplicação vai consumir (projetos e informações pessoais)
 
 ## Autores
 
@@ -45,7 +46,9 @@ Após a execução dos dois comando acesse [http://localhost:3000](http://localh
 
 ## Fonte
 
-- [Criando Portfólio com Next.js 13](https://youtu.be/DKS_KAmPwvs?si=dXGTAl4o3chLtS5y).
+- [Criando Portfólio com Next.js 13 - #01](https://youtu.be/DKS_KAmPwvs?si=dXGTAl4o3chLtS5y).
+- [Criando Portfólio com Next.js 13 - #02](https://www.youtube.com/watch?v=89hYBEXKpqs&t=9s).
+- [Criando Portfólio com Next.js 13 - #03](https://www.youtube.com/watch?v=juJzTio04WQ).
 
 ## Licença
 
