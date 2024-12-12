@@ -1,12 +1,52 @@
-# Template - Tutorial Portfólio 2023
+# Danilo Righetto's website 2024
 
-![image](https://github.com/gbdev-labs/template-portfolio-tutorial-2023/assets/71772559/ade0ec7a-cb22-4c5c-a4fa-183ab380357e)
+Criando um novo site, utilizando [nextjs](https://nextjs.org/) e [tailwind](https://tailwindui.com/documentation), contendo os principais projetos e competências para apresentar aos novos clientes e futuros recrutadores.
 
+## Iniciando o projeto com Docker
 
-Este é um template básico que será usado na [série do YouTube](https://youtube.com/playlist?list=PLY_G6KZ7jlfU41bdaWpTsOnfCC7bmpJcL) para criar um Portfólio com as ferramentas mais recentes de desenvolvimento web. O template inclui o Next.js 13, Tailwind CSS, Hygraph CMS, TypeScript e Framer Motion, que são as tecnologias principais que serão usadas na série.
+**Atenção**: verifique se o **Docker** e o **Docker Compose** estão instalado no seu ambiente antes de executar os comando á seguir!
 
-O objetivo deste template é fornecer um ponto de partida para os espectadores que acompanham a série de tutoriais e desejam seguir juntamente com a construção do portfólio. Ele inclui a estrutura básica do projeto e os arquivos necessários para iniciar o desenvolvimento do portfólio.
+Antes de subir o projeto com todos os serviços necessários para o seu correto funcionamento, execute o comando para construir as imagens:
 
-Ao usar este template, você poderá seguir os tutoriais da série passo a passo e criar um portfólio profissional e impressionante com as mais recentes tecnologias de desenvolvimento web.
+```bash
+docker-compose build --no-cache
+```
 
-[**Projeto final**](https://github.com/GBDev13/portfolio-tutorial-2023)
+Em seguida, execute o comando abaixo para subir todos os serviços necessários:
+
+```bash
+docker-compose up -d
+```
+
+Após isso acesse [http://localhost:3000](http://localhost:3000).
+
+## Instalação sem o Docker
+
+Para iniciar o projeto execute os comando abaixo: 
+
+```bash
+  npm install #para instalar as dependencias do projeto
+  npm run dev #para subir o projeto na porta 3000
+```
+
+Após a execução dos dois comando acesse [http://localhost:3000](http://localhost:3000).
+
+## Stack utilizada
+
+- **[Nextjs](https://nextjs.org/)** - (Versão 15.0.3 - Turbopack)
+- **[Tailwind](https://tailwindui.com/documentation)**
+- **[PNPM](https://pnpm.io/pt/)**
+- **[Lucide](https://lucide.dev/)** - (Biblioteca de Icones)
+
+## Autores
+
+- [Github - @danilo-righetto](https://github.com/danilo-righetto)
+- [Linkedin - @danilo-righetto](https://www.linkedin.com/in/danilo-righetto/)
+
+## Fonte
+
+- [Criando Portfólio com Next.js 13](https://youtu.be/DKS_KAmPwvs?si=dXGTAl4o3chLtS5y).
+
+## Licença
+
+Esta aplicação é um software de código aberto licenciado pelo [MIT license](https://opensource.org/licenses/MIT).
