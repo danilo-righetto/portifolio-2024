@@ -46,7 +46,7 @@ Após a execução dos dois comando acesse [http://localhost:3000](http://localh
 
 ## Fonte
 
-- [Criando Portfólio com Next.js 13 - #01](https://youtu.be/DKS_KAmPwvs?si=dXGTAl4o3chLtS5y).
+- [Criando Portfólio com Next.js 13 - #01](https://youtu.be/DKS_KAmPwvs?si=dXGTAl4o3chLtS5y). Tempo do Video: 28:24
 - [Criando Portfólio com Next.js 13 - #02](https://www.youtube.com/watch?v=89hYBEXKpqs&t=9s).
 - [Criando Portfólio com Next.js 13 - #03](https://www.youtube.com/watch?v=juJzTio04WQ).
 
